@@ -8,6 +8,7 @@ altura = 0
 lado = 0
 altura = 0
 
+print("vamos a calcular el perimetro del rectángulo.")
 lado= (int)(input("dime la distancia del lado :\n "))
 altura= (int)(input("dime la distancia de la altura :\n "))
 print("el perimetro del rectángulo es:")
