@@ -5,4 +5,4 @@ minutos = 0
 
 print("vamos a calcular minutos")
 minutos= (int) (input("¿Cuántos minutos deseas pasar a horas?:\n "))
-print("son:", (minutos/60), "minutos")
+print(f"Los {minutos} minutos son: {int (minutos/60)} horas y {int (minutos%60)} minutos")

@@ -3,7 +3,7 @@
 numero1= 0
 numero2= 0
 
-print("Vamos a sumer dos números")
+print("Vamos a sumar dos números")
 numero1= (int)(input ("dime el valor del primer número: \n"))
 numero2= (int)(input ("dime el valor del segundo número: \n"))
 print("la suma es:", (numero1+numero2))

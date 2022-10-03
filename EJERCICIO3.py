@@ -5,6 +5,6 @@ cateto2 = 0
 
 print("vamos a calcular la hipotenusa de un triángulo")
 cateto1= (int) (input ("dime la distanciad del primer cateto: \n"))
-cateto2= (int) (input ("dime la distancia del cateto2: \n"))
+cateto2= (int) (input ("dime la distancia del segundo cateto: \n"))
 print("la hipotenusa del triángulo es:", (math.sqrt(cateto1*cateto1+cateto2*cateto2)))
  
