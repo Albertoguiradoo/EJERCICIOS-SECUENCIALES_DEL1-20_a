@@ -12,5 +12,5 @@ venta1 = int(input("Dime cuanto ganastes con tu primera venta:\n "))
 venta2= int(input("Dime cuanto ganastes con tu segunda venta:\n "))
 venta2= int(input("Dime cuanto ganastes con tu tercera venta:\n "))
 
-print(" Tus ganancias obtenidad con las ventas es de:" ,((venta1+venta2+venta3)*1.1), "euros")
-print(" Tu sueldo con los extras es de un total de",(((venta1+venta2+venta3)*1.1)+sueldo), "euros")
+print(" Tus ganancias obtenidas con las ventas es de:" ,int((venta1+venta2+venta3)*0.1), "euros")
+print(" Tu sueldo con los extras es de un total de",int(((venta1+venta2+venta3)*0.1)+sueldo), "euros")
