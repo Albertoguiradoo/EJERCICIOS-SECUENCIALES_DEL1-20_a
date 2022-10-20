@@ -1,5 +1,5 @@
 #Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
-import math
+
 cateto1 = 0
 cateto2 = 0
 
