@@ -5,7 +5,7 @@ def ejercicio1(nombre:str):
     print("-Ejercicio1\n")
     print("Hola", nombre)
 
-ejercicio1("Alberto\n")
+ejercicio1("Alberto.\n")
 
 def ejercicio2(altura:int,lado:int):
     print("-Ejercicio2\n")
