@@ -7,21 +7,41 @@ def ejercicio1(nombre:str):
 
 ejercicio1("Alberto.\n")
 
-def ejercicio2(altura:int,lado:int):
-    print("-Ejercicio2\n")
-    print("Vamos a calcular el perimetro del rectángulo.")
-    print("-El perimetro del rectángulo es:", (2*lado +2*altura))
-    print("-Vamos a calcular el area del rectángulo:")
-    print("El area del rectángulo es:", (lado*altura), "metros")
+def ejercicio2a(altura:int,lado:int):
+    
+    area= (lado*altura)
+    return area
 
-ejercicio2(2,3)
+
+def ejercicio2b(altura:int,lado:int): 
+    perimetro = (2*lado +2*altura)
+    return perimetro
+    
+#Devuelvo una lista con [area, perímetro]
+def calcularareaYperímetro(lado1:int,lado2:int):
+    vDatos=[]
+    area = ejercicio2a (lado1,lado2)
+    perimetro= ejercicio2b(lado1,lado2)
+    vDatos.append(area)
+    vDatos.append(perimetro)
+    return vDatos
+#principal
+print("-Ejercicio2\n")
+lado1 = int(input("Dime el valor del lado1:\n"))
+lado2 = int(input("Dime el valor del lado2:\n"))
+vNum = calcularareaYperímetro(lado1,lado2)
+print("El área es:",vNum[0])
+print("El perímetro es:",vNum[1])
+
+
+
 
 def ejercicio3(cateto1:int,cateto2:int):
     print("-Ejercicio3\n")
-    print("vamos a calcular la hipotenusa de un triángulo")
-    print("la hipotenusa del triángulo es:", (math.sqrt(cateto1*cateto1+cateto2*cateto2)))
-
-ejercicio3(5,6)
+    #print("vamos a calcular la hipotenusa de un triángulo")
+    #print("la hipotenusa del triángulo es:", (math.sqrt(cateto1*cateto1+cateto2*cateto2)))
+    return (math.sqrt(cateto1*cateto1+cateto2*cateto2))
+print ("La Hipotenusa del triángulo, cuyos lados son: 5 y 6 es : ",ejercicio3(5,6))
 
 def ejercicio4(num1:int,num2:int):
     print("-Ejercicio4\n")
