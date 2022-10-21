@@ -31,7 +31,7 @@ lado1 = int(input("Dime el valor del lado1:\n"))
 lado2 = int(input("Dime el valor del lado2:\n"))
 vNum = calcularareaYperímetro(lado1,lado2)
 print("El área es:",vNum[0])
-print("El perímetro es:",vNum[1])
+print("El perímeatro es:",vNum[1])
 
 
 
